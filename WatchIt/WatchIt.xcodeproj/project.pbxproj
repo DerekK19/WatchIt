@@ -92,9 +92,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		712081B91ADF3EC200D854E4 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = SwiftyJSON.framework; path = "/Users/derekk/Library/Developer/Xcode/DerivedData/WatchIt-gbbyefeiqgawqwciwntvxqlthdxo/Build/Products/Debug-iphoneos/SwiftyJSON.framework"; sourceTree = "<absolute>"; };
-		712081C31ADF416900D854E4 /* ObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = ObjectMapper.framework; path = "/Users/derekk/Library/Developer/Xcode/DerivedData/WatchIt-gbbyefeiqgawqwciwntvxqlthdxo/Build/Products/Debug-iphoneos/ObjectMapper.framework"; sourceTree = "<absolute>"; };
-		71AB0A3F1ADF62AD0086E7EE /* StockPriceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = StockPriceKit.framework; path = "/Users/derekk/Library/Developer/Xcode/DerivedData/WatchIt-gbbyefeiqgawqwciwntvxqlthdxo/Build/Products/Debug-iphoneos/StockPriceKit.framework"; sourceTree = "<absolute>"; };
+		712081B91ADF3EC200D854E4 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		712081C31ADF416900D854E4 /* ObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71AB0A3F1ADF62AD0086E7EE /* StockPriceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = StockPriceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71E86F4F1ADF0B4D00BD0E47 /* WatchIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71E86F531ADF0B4D00BD0E47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71E86F541ADF0B4D00BD0E47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
