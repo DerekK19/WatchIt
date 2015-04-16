@@ -45,8 +45,8 @@
 		71FBFB341ADF60BE005CD2FF /* String+URLEscape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+URLEscape.swift"; sourceTree = "<group>"; };
 		71FBFB371ADF60D2005CD2FF /* ServiceAgent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceAgent.swift; sourceTree = "<group>"; };
 		71FBFB381ADF60D2005CD2FF /* StockServiceAgent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockServiceAgent.swift; sourceTree = "<group>"; };
-		71FBFB401ADF6159005CD2FF /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = "../../../Library/Developer/Xcode/DerivedData/WatchIt-gbbyefeiqgawqwciwntvxqlthdxo/Build/Products/Debug-iphoneos/ObjectMapper.framework"; sourceTree = "<group>"; };
-		71FBFB411ADF6159005CD2FF /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../Library/Developer/Xcode/DerivedData/WatchIt-gbbyefeiqgawqwciwntvxqlthdxo/Build/Products/Debug-iphoneos/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		71FBFB401ADF6159005CD2FF /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71FBFB411ADF6159005CD2FF /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
