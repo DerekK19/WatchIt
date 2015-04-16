@@ -8,14 +8,16 @@
 
 import WatchKit
 import Foundation
+import StockPriceKit
 
-
-class InterfaceController: WKInterfaceController {
+class InterfaceController: StockInterfaceController {
 
     private var amount = 0
     
     @IBOutlet weak var label: WKInterfaceLabel!
 
+    private let watcher = Stock(symbol: "AAPL")
+    
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
@@ -28,28 +30,28 @@ class InterfaceController: WKInterfaceController {
         super.init ()
         
         // It is now safe to access interface objects.
-        showPrice()
     }
     
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
-        NSLog("InterfaceController: willActivate")
         super.willActivate()
     }
 
     override func didDeactivate() {
         // This method is called when watch view controller is no longer visible
-        NSLog("InterfaceController: didDeactivate")
         super.didDeactivate()
     }
 
     @IBAction func didPressMe() {
-        amount += 10
-        showPrice()
+        self.label.setText("Please wait...")
+        watcher.getLatest()
     }
     
-    private func showPrice() {
-        label.setText("$\(amount)")
+    func didChangePrice(note: NSNotification) {
+        dispatch_async(dispatch_get_main_queue()) {
+            let amount = self.watcher.latestPrice
+            self.label.setText("$\(amount)")
+        }
     }
 
 }

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8C64D269-D545-49E1-83FF-E665605479FF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WatchIt</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8CB0F537EB9571C5FF0F07F295936FB21DC0740B</key>
+		<string>https://github.com/DerekK19/WatchIt.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WatchIt.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8CB0F537EB9571C5FF0F07F295936FB21DC0740B</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/DerekK19/WatchIt.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8CB0F537EB9571C5FF0F07F295936FB21DC0740B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8CB0F537EB9571C5FF0F07F295936FB21DC0740B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WatchIt</string>
+		</dict>
+	</array>
+</dict>
+</plist>

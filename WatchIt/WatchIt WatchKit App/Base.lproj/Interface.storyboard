@@ -10,7 +10,7 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchIt_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <label width="136" alignment="left" verticalAlignment="center" text="Label" textAlignment="center" id="Hne-81-c6I"/>
+                        <label width="136" alignment="left" verticalAlignment="center" text="Please wait..." textAlignment="center" id="Hne-81-c6I"/>
                         <button width="1" alignment="left" verticalAlignment="bottom" title="Press me" id="YTy-Ih-adE">
                             <connections>
                                 <action selector="didPressMe" destination="AgC-eL-Hgc" id="vgJ-xs-3hZ"/>

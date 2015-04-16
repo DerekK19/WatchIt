@@ -7,13 +7,13 @@
 //
 
 import UIKit
-import AAPLPriceKit
+import StockPriceKit
 
 class ViewController: UIViewController {
 
     @IBOutlet weak var priceLabel: UILabel!
     
-    private let watcher = AAPLStock()
+    private let watcher = Stock(symbol: "AAPL")
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,8 +27,6 @@ class ViewController: UIViewController {
         super.viewDidAppear(animated)
 
         setupObservers()
-        
-
     }
     
     override func viewDidDisappear(animated: Bool) {
@@ -45,13 +43,13 @@ class ViewController: UIViewController {
 
     func didChangePrice(note: NSNotification) {
         dispatch_async(dispatch_get_main_queue()) {
-            let amount = self.watcher.currentPrice()
+            let amount = self.watcher.latestPrice
             self.priceLabel.text = "$\(amount)"
         }
     }
     
     func setupObservers() {
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: "didChangePrice:", name: AAPLPriceNotification.didChange.rawValue, object: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "didChangePrice:", name: StockNotification.priceDidChange.rawValue, object: nil)
     }
     
     func removeObservers() {

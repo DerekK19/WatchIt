@@ -2,15 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:AAPLPriceKit/../WatchIt/WatchIt.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:StockPriceKit/StockPriceKit.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:SwiftyJSON-master/SwiftyJSON.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:ObjectMapper-master/ObjectMapper.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:AAPLPriceKit/AAPLPriceKit.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:AAPLPriceKit/../WatchIt/WatchIt.xcodeproj">
    </FileRef>
 </Workspace>
